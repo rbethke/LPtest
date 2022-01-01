@@ -105,6 +105,7 @@ h2 {
     justify-content: center;
     align-items: center;
     min-height: 300px;
+    
 
 }
 
@@ -118,3 +119,51 @@ h2 {
     font-size: 24px;
 }
 
+.estimate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 62px
+}
+
+.tile {
+    background-color: #3882f6;
+
+    color: white;
+    padding: 48px;
+    font-size: 18px;
+    max-height: 100px;
+    border-radius: 25px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:62px;    
+}
+
+.tile-text {
+    max-width: 75%;
+}
+
+.tile-button {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.b2 {
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    background-color: #3882f6;
+    color: white;
+}
+
+.footer {
+    
+    color: #1f2937;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+}
